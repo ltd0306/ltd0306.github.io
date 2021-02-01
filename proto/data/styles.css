@@ -69,6 +69,8 @@
   color:#000000;
   text-align:left;
 }
+.flow_shape {
+}
 .text_area {
   color:#000000;
   text-align:left;
@@ -82,6 +84,9 @@
   text-align:left;
 }
 .checkbox {
+  text-align:left;
+}
+.radio_button {
   text-align:left;
 }
 .form_hint {
@@ -142,5 +147,27 @@
   color:#666666;
 }
 .icon {
+}
+.paragraph1 {
+  text-align:left;
+}
+.heading_21 {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+.heading_3 {
+  font-family:'Arial Normal', 'Arial', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+.line1 {
+}
+.link_button {
+  color:#169BD5;
 }
 textarea, select, input, button { outline: none; }
