@@ -12,6 +12,8 @@
 }
 .box_1 {
 }
+._形状 {
+}
 .image {
 }
 .button {
@@ -63,6 +65,13 @@
 ._文本段落 {
   text-align:left;
 }
+._文本链接 {
+  color:#0000FF;
+}
+.text_link_mouse_over {
+}
+.text_link_mouse_down {
+}
 .line {
 }
 .text_field {
@@ -89,6 +98,16 @@
 .radio_button {
   text-align:left;
 }
+.tree_node {
+  font-size:12px;
+  color:#F2F2F2;
+  text-align:left;
+  line-height:40px;
+}
+.table_cell {
+}
+.menu_item {
+}
 .form_hint {
   color:#999999;
 }
@@ -102,6 +121,17 @@
 ._流程形状 {
 }
 ._连接 {
+}
+.snapshot {
+}
+.sticky_1 {
+  text-align:left;
+}
+.sticky_2 {
+  text-align:left;
+}
+.sticky_3 {
+  text-align:left;
 }
 .paragraph {
   text-align:left;
