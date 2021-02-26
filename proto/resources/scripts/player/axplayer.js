@@ -1191,14 +1191,6 @@ var toolBarOnly = true;
         }
     }
 
-    function getUserName(name) {
-        try {
-            return decodeURIComponent(name);
-        } catch {
-            return name;
-        }
-    }
-
     function setUserLoggedInStatus(response, safariAuthResponseProfile) {
         if (!response.success) {
             userAcct.isUsingAxureAcct = false;
@@ -1206,9 +1198,9 @@ var toolBarOnly = true;
             if (safariAuthResponseProfile) response = safariAuthResponseProfile;
             userAcct.userId = response.userId;
             if (safariAuthResponseProfile) 
-                userAcct.userName = response.username == null || response.username.trim() === '' ? response.userEmail : getUserName(response.username.trim());
+                userAcct.userName = response.username == null || response.username.trim() === '' ? response.userEmail : response.username.trim();
             else
-                userAcct.userName = response.nickname == null || response.nickname.trim() === '' ? response.userEmail : getUserName(response.nickname.trim());
+                userAcct.userName = response.nickname == null || response.nickname.trim() === '' ? response.userEmail : response.nickname.trim();
             userAcct.userEmail = response.userEmail;
             userAcct.userProfileImg = response.profileImageUrl;
             userAcct.isUsingAxureAcct = true;

@@ -74,6 +74,8 @@
 }
 .line {
 }
+.arrow {
+}
 .text_field {
   color:#000000;
   text-align:left;
@@ -131,6 +133,12 @@
 }
 .sticky_3 {
   text-align:left;
+}
+.sticky_4 {
+  text-align:left;
+}
+.marker {
+  color:#FFFFFF;
 }
 .paragraph {
   text-align:left;
@@ -200,5 +208,7 @@
 }
 .link_button {
   color:#169BD5;
+}
+.flow_shape1 {
 }
 textarea, select, input, button { outline: none; }
